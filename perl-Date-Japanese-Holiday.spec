@@ -26,7 +26,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Date::Japanese::Holiday handles conversion between Japanese Holiday and
 Gregorian calendar.
 
-%description
+%description -l pl
 Date::Japanese::Holiday obs³uguje konwersjê dat pomiêdzy japoñskimi
 swiêtami a kalendarzem gregoriañskim.
 
