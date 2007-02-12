@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Japanese-Holiday
 Summary:	Date::Japanese::Holiday - calculate dates in the Japanese-Holiday calendar
-Summary(pl):	Date::Japanese::Holiday - obliczanie daty wg japoñskiego kalendarza ¶wi±t
+Summary(pl.UTF-8):   Date::Japanese::Holiday - obliczanie daty wg japoÅ„skiego kalendarza Å›wiÄ…t
 Name:		perl-Date-Japanese-Holiday
 Version:	0.05
 Release:	1
@@ -26,9 +26,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Date::Japanese::Holiday handles conversion between Japanese Holiday and
 Gregorian calendar.
 
-%description -l pl
-Date::Japanese::Holiday obs³uguje konwersjê dat pomiêdzy japoñskimi
-swiêtami a kalendarzem gregoriañskim.
+%description -l pl.UTF-8
+Date::Japanese::Holiday obsÅ‚uguje konwersjÄ™ dat pomiÄ™dzy japoÅ„skimi
+swiÄ™tami a kalendarzem gregoriaÅ„skim.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
