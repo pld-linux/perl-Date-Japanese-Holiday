@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Japanese-Holiday
 Summary:	Date::Japanese::Holiday - calculate dates in the Japanese-Holiday calendar
-Summary(pl.UTF-8):   Date::Japanese::Holiday - obliczanie daty wg japońskiego kalendarza świąt
+Summary(pl.UTF-8):	Date::Japanese::Holiday - obliczanie daty wg japońskiego kalendarza świąt
 Name:		perl-Date-Japanese-Holiday
 Version:	0.05
 Release:	1
