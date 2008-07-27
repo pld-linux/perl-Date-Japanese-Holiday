@@ -9,7 +9,7 @@ Summary:	Date::Japanese::Holiday - calculate dates in the Japanese-Holiday calen
 Summary(pl.UTF-8):	Date::Japanese::Holiday - obliczanie daty wg japońskiego kalendarza świąt
 Name:		perl-Date-Japanese-Holiday
 Version:	0.05
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
