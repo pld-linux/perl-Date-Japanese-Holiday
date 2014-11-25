@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Date
 %define		pnam	Japanese-Holiday
+%include	/usr/lib/rpm/macros.perl
 Summary:	Date::Japanese::Holiday - calculate dates in the Japanese-Holiday calendar
 Summary(pl.UTF-8):	Date::Japanese::Holiday - obliczanie daty wg japońskiego kalendarza świąt
 Name:		perl-Date-Japanese-Holiday
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6b0bed78ad2127afe06f01f346caa36e
+URL:		http://search.cpan.org/dist/Date-Japanese-Holiday/
 BuildRequires:	perl-Date-Simple
 BuildRequires:	perl-Time-modules
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -23,8 +24,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Date::Japanese::Holiday handles conversion between Japanese Holiday and
-Gregorian calendar.
+Date::Japanese::Holiday handles conversion between Japanese Holiday
+and Gregorian calendar.
 
 %description -l pl.UTF-8
 Date::Japanese::Holiday obsługuje konwersję dat pomiędzy japońskimi
