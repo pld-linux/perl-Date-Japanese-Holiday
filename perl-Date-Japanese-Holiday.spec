@@ -4,7 +4,6 @@
 
 %define		pdir	Date
 %define		pnam	Japanese-Holiday
-%include	/usr/lib/rpm/macros.perl
 Summary:	Date::Japanese::Holiday - calculate dates in the Japanese-Holiday calendar
 Summary(pl.UTF-8):	Date::Japanese::Holiday - obliczanie daty wg japońskiego kalendarza świąt
 Name:		perl-Date-Japanese-Holiday
